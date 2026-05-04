@@ -31,12 +31,3 @@ TESTOMATIO=tstmt_xxx TESTOMATIO_TITLE="Shared Run Test" \
 TESTOMATIO_SHARED_RUN=1 TESTOMATIO_PROCEED=1 TESTOMATIO_CREATE=1 \
 npx playwright test --shard=1/2
 ```
-
-With PROCEED, shard finish is NOT logged to run description.
-
-## Expected behavior
-
-- Both shards report into the same run (same Report ID)
-- Run stays "Running" after shard finishes
-- Run description shows: "Run is shared / Shard #1 has finished at ... / Shard #2 has finished at ..."
-- Run finishes only by system after termination_timeout
