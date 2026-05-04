@@ -1,6 +1,6 @@
 # Shared Run Test Project
 
-Minimal Playwright project for verifying [#8155 Shared Runs improvements](https://github.com/testomatio/testomatio/issues/8155).
+Minimal Playwright project for verifying Shared Runs.
 
 ## Setup
 
